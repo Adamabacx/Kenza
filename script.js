@@ -26,7 +26,7 @@ noBtn.addEventListener('mousemove', () => {
 });
 
 yesBtn.addEventListener('click', () => {
-  message.textContent = "Yay! 💞 I can't wait for what the future holds!";
+  message.textContent = "Yay! 💞 I can't wait for what the future holds!   Don't fuck it up";
   picture.src = "Cutejerseypic.JPEG";
 
   function createFloatingEmoji(emoji) {
@@ -50,6 +50,7 @@ yesBtn.addEventListener('click', () => {
   yesBtn.style.display = 'none';
   noBtn.style.display = 'none';
 });
+
 
 
 
