@@ -28,7 +28,6 @@ noBtn.addEventListener('mousemove', () => {
 yesBtn.addEventListener('click', () => {
   message.textContent = "Yay! 💞 I can't wait for what the future holds!";
   picture.src = "Cutejerseypic.JPEG";
-  picture.src = "Parispic.JPEG";
 
   function createFloatingEmoji(emoji) {
     const elem = document.createElement('div');
@@ -51,6 +50,7 @@ yesBtn.addEventListener('click', () => {
   yesBtn.style.display = 'none';
   noBtn.style.display = 'none';
 });
+
 
 
 
